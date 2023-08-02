@@ -1,0 +1,148 @@
+.login {
+
+    background-color: rgb(36, 53, 63);
+
+}
+
+h1 {
+ 
+    color: #17a2b8;
+    font-size: 2.6rem;
+
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.innerLogin{
+
+    width: 68%;
+    margin: auto;
+   box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1)
+}
+.innerLogin input{
+
+   color: white;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: unset;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+ 
+}
+
+h5.note {
+
+    font-size: 18px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.innerLogin input::placeholder {
+    color: #ced4dad7; 
+    font-size: 18px;
+  }
+
+
+  a.signUp:hover,a.signin:hover  {
+
+    text-decoration: underline !important;
+
+  }
+
+
+
+
+  .form-control:focus {
+    background-color: unset;
+    color: white;
+  }
+  .pass-error,.em-error, .nm-error,.repeatAcc{
+
+    color: red;
+    border: none;
+    
+
+  }
+
+
+  /* START STYLE HEADER THIS IS OPSSION */
+  img {
+
+    width: 100%;
+    height: 240px;
+}
+
+@media screen and (max-width:800px) {
+
+    img{
+
+        height:200px;
+    }
+    
+}
+
+@media screen and (max-width:560px) {
+
+    img{
+
+        height:170px;
+    }
+    
+}
+figure {
+
+    position: relative;
+    overflow: hidden;
+}
+
+figcaption{
+
+background-color: rgb(86, 161, 184);
+color: greenyellow;
+
+    --space-position:10px;
+position: absolute;
+bottom: var(--space-position);
+left:var(--space-position) ;
+right: var(--space-position);
+
+translate: 0 115%;
+transition: 0.5s 0.1s translate;
+}
+
+figure:hover figcaption {
+
+translate: 0 0;
+
+}
+
+.lyar {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.lyar .curosl i {
+
+    cursor: pointer;
+
+}
+
+.lyar .curosl {
+
+
+background-image: url('../imgs/5.jpg');
+background-size: 100% 100%;
+width: 380px;
+height: 320px;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
